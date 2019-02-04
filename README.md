@@ -1,5 +1,7 @@
 JQUERY STATEMENTS 
 
+JQuery is kind of like short hand javascript
+
 -Pretty much every jQuery statement starts with a $ sign (or the jQuery keyword)
 
 Example...
