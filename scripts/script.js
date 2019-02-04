@@ -1,30 +1,18 @@
+//next 
+// $("#contact-methods").next().css({border: "3px solid red"});
 
-// //first and last 
-// // $("header nav li:first").css({border:"2px solid red"});
-// // $("header nav li:last").css({border:"2px solid red"});
+//prev
+// $("#social-nav").prev().css({border: "3px solid blue"});
 
-// //first-child last-child
-// // $("#contact ul:first-child").css({border: "2px solid red"});
-// // $("#contact ul:last-child").css({border: "2px solid red"});
+//parent
+// $(".banner-title").parent().css({border: "3px solid pink"});
 
-// //even
-//  $("header nav li:even").css({border: "2px solid blue"});
+//children
+// $("#social-nav").children().css({border: "3px solid green"});
 
-// //odd
-//  $("header nav li:odd").css({border: "2px solid yellow"});
+//find .. quickest method
+// $("#contact").find(".facebook").css({border: "3px solid purple"});
 
-// // //not
-// $("section:not('#conact')").css({border: "2px solid green"})
+//closest
+// $("#social-nav").closest(".wrapper").css({border: "3px solid orange"});
 
-// // //less than 
-// // $("#social-nav li:lt(3)").css({border: "2px solid blue"});
-
-// //greater than 
-//  $("#social-nav li:gt(2)").css({border: "2px solid blue"});
-
-// // attribute filters
-// // $("div[class]").css({border: "2px solid pink"});
-//  $("img[alt]").css({border: "2px solid pink"});
-
-// //attribute with specific value 
-// $("img[alt=quote]").css({border: "2px solid purple"})
