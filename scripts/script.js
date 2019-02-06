@@ -1,6 +1,7 @@
 
 $("section").wrap("<div>");
-
+$("section").unwrap();
+$("section").wrapAll ("<div>");
 
 // wrap() wraps all the matched elements individually 
 // unwrap()
