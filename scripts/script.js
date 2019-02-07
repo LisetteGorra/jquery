@@ -1,17 +1,35 @@
-// $("#contact img").removeAttr("alt");
-// $("#contact img").attr("alt", "location");
-console.log($("#contact img").attr("alt"));
+ 
+$("#social-nav").css({
+  "top": "-400px",
+  "left": "150px",
+  "opacity": "0.5",
+  "border-top": 4px solid red,
+});
+
+// var myObject = {
+//   "height": "40",
+//   "speed": "100", 
+// }
+
+
+//   console.log($("social-nav").css("position"));
+//     console.log($("social-nav").css("top", "-200px"));
+
+// $("social-nav").css("top", "-200px");
+// $("social-nav").css("top", "-200px").css("left", "100px").css;
+
+
+ 
+
+
+// // $("#contact img").removeAttr("alt");
+// // $("#contact img").attr("alt", "location");
+
+// console.log($("#contact img").attr("alt")); // used for an image gallery can load diff image when clicked
 
 
 // .removeAttr() removes an attrubute completely from element
 // .attr() can read or set any attribute 
-
-
-
-
-
-
-
 
 
 // // $(".button").empty();
