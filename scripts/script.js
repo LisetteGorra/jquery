@@ -1,21 +1,46 @@
-var wrapper = "<div class='wrapper'>";
-var button = $(".button");
-var wrapped = true;
+// $(".button").empty();
+$(".button").remove();
+// $("points-of-sale").empty();
+$("#contact img").remove();
 
-button[0].onclick = function() {
+
+
+// .empty - empties the inner HTML of an element 
+
+// .remove() - removes the element completely
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var wrapper = "<div class='wrapper'>";
+// var button = $(".button");
+// var wrapped = true;
+
+// button[0].onclick = function() {
   
-  if(wrapped){
-     $("section").unwrap(); 
-     wrapped = false;
-     button.text("Wrap");
-  }else{
-      $("section").wrapAll(wrapper);
-      wrapped = true;
-           button.text("Unwrap");
+//   if(wrapped){
+//     $("section").unwrap(); 
+//     wrapped = false;
+//     button.text("Wrap");
+//   }else{
+//       $("section").wrapAll(wrapper);
+//       wrapped = true;
+//           button.text("Unwrap");
 
-  }
+//   }
     
-};
+// };
 
 
 
