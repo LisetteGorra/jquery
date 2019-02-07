@@ -1,25 +1,29 @@
-// $(".button").empty();
-$(".button").remove();
-// $("points-of-sale").empty();
-$("#contact img").remove();
+// $("#contact img").removeAttr("alt");
+// $("#contact img").attr("alt", "location");
+console.log($("#contact img").attr("alt"));
+
+
+// .removeAttr() removes an attrubute completely from element
+// .attr() can read or set any attribute 
+
+
+
+
+
+
+
+
+
+// // $(".button").empty();
+// $(".button").remove();
+// // $("points-of-sale").empty();
+// $("#contact img").remove();
 
 
 
 // .empty - empties the inner HTML of an element 
 
 // .remove() - removes the element completely
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -41,21 +45,6 @@ $("#contact img").remove();
 //   }
     
 // };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
