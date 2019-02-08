@@ -1,15 +1,34 @@
- $("header .wrapper").removeClass("wrapper");
-// $("header .wrapper").addClass("wrapper");
- $("header > div").addClass("wrapper");
+
+
+var myLis = $("#points-of-sale li");
+
+myLis.on("click", function(){
+  
+  $(this).css({"background" : "pink"});
+  //unbind
+  myLis.off("click");
+});
+
+
+
+
+
+
+
+
+
+// $("header .wrapper").removeClass("wrapper");
+// // $("header .wrapper").addClass("wrapper");
+// $("header > div").addClass("wrapper");
  
  
- var button = $("lead-banner a");
+// var button = $("lead-banner a");
  
- button[0].onclick = function(){
-   $("points-of-sale").toggleClass("open");
-   return false;
+// button[0].onclick = function(){
+//   $("points-of-sale").toggleClass("open");
+//   return false;
    
- };
+// };
 
 
 // var myObject = {
