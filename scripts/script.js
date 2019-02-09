@@ -1,18 +1,22 @@
-
-
-var myLis = $("#points-of-sale li");
-
-myLis.on("click", function(){
+$("#lead-banner").click(function(){
+  alert("you clicked me");
   
-  $(this).css({"background" : "pink"});
-  //unbind
-  myLis.off("click");
 });
+  
 
 
 
 
 
+
+// var myLis = $("#points-of-sale li");
+
+// myLis.on("click", function(){
+  
+//   $(this).css({"background" : "pink"});
+//   //unbind
+//   myLis.off("click");
+// });
 
 
 
