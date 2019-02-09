@@ -5,14 +5,6 @@ $(window).on("load", function(){
 
 
 
-
-
-
-
-
-
-
-
 // $(document.on)"ready", function(){
 
   

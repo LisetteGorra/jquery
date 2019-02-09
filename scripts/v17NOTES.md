@@ -38,3 +38,7 @@ $(window).on("load", function(){
 - this is very similar but it waits for the whole page to load not just the elements
 - when you want an image to fully load so that you can change the width or other attributes you would use this code instead of the .ready
 
+or $(window).load(function({
+});
+
+- which is exactly the same as the last code
