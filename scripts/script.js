@@ -1,16 +1,36 @@
 
 $(document).ready (function(){
 
-$("*").on("click", function(e){ 
-    console.log(e.target);
-   console.log("The event type is:" + e.type);
-   console.log("X co-ordinate of the event is: " + e.pageX);
-   console.log("Y co-ordinate of the event is: " + e.pageY); 
-   e.stopPropagation(); 
-});
+    function complete(){
+         alert("Animation complete");
+    }
+    
+   $("section > h2").on("click", function(){
+       
+   $(this).animate({"width": "500px", "height": "100px"}, 4000, "swing", complete);
+          
+       
+   }); 
 });
 
 
+
+
+
+
+
+
+
+// $(document).ready (function(){
+
+// $("*").on("click", function(e){ 
+//     console.log(e.target);
+//   console.log("The event type is:" + e.type);
+//   console.log("X co-ordinate of the event is: " + e.pageX);
+//   console.log("Y co-ordinate of the event is: " + e.pageY); 
+//   e.stopPropagation(); 
+// });
+// });
 
 
 
