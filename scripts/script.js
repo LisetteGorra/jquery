@@ -1,18 +1,33 @@
-
 $(document).ready (function(){
+    
+      
+    $(".slide-button-up").on("click", function(){
+        
+        $("#lead-banner").slideUp(100);
+    });
+    $(".slide-button-down").on("click", function(){
+        
+        $("#lead-banner").slideDown(4000, function(){
+            alert("animation complete"); 
+        });
+    
+        
+    });
 
 
-$("img[alt=map]").on("click", function(){
+ });
+
+ 
+
+
+// $(document).ready (function(){
+
+
+// $("img[alt=map]").on("click", function(){
      
-        $("section > h2").toggle(1000);
-   });
-});
-
-
-
-
-
-
+//         $("section > h2").toggle(1000);
+//   });
+// });
 
 
 
